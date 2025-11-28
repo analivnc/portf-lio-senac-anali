@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(229, 191, 249);
+  margin: 0;
+  font-family: serif;
+}
+
+header {
+  background-color: rgb(164, 103, 214);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+.foto img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.texto h2 {
+  font-size: 32px;
+}
+
+.texto p {
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+.container-projetos {
+  text-align: center;
+  padding: 60px;
+}
+
+.container-projetos h2 {
+  font-size: 32px;
+}
+
+.grid-projetos {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.card {
+  background: #e5d7f3;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background: #d2bee9;
+}
+
+.container-sobre {
+  padding: 60px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.container-sobre h2 {
+  font-size: 32px;
+}
+
+.container-sobre p {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.links {
+  margin-top: 40px;
+  font-size: 14px;
+}
